@@ -1,0 +1,126 @@
+/* src/components/Dashboard.css */
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: yellowgreen; /* Sidebar color */
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sidebar-button {
+    width: 100%;
+    padding: 10px;
+    background-color: yellowgreen; /* Sidebar button color */
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 20px; /* Space below the button */
+  }
+  
+  .sidebar-button:hover {
+    background-color: #4CAF50; /* Darker green on hover */
+  }
+  
+  .sidebar-item {
+    margin: 10px 0;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    background-color: transparent;
+  }
+  
+  .sidebar-item:hover {
+    background-color: #e201F1; /* Highlight color on hover */
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    background-color: #f5f5f5; /* Main content background color */
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px; /* Space below the header */
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Space between icons and button */
+  }
+  
+  .icon {
+    width: 24px; /* Size of the icons */
+    height: 24px;
+    margin-left: 10px; /* Space between icons */
+  }
+  
+  .certificate-button {
+    padding: 6px 12px; /* Smaller size for the button */
+    font-size: 12px;
+    color: white;
+    background-color: yellowgreen; /* Button color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .certificate-button:hover {
+    background-color: yellowgreen; /* Darker green on hover */
+  }
+  
+  .graph-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .graph {
+    width: 40vh;
+    height: 300px; /* Adjust height as needed */
+    background-color: #ddd; /* Placeholder for graph */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .box {
+    width: 40%; /* Adjust width as needed */
+    background-color: yellowgreen; /* Box color */
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
